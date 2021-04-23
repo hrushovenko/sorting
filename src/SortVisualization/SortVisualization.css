@@ -1,0 +1,38 @@
+.array-container {
+  margin: 0 auto;
+  height: 510px;
+  padding: 10px;
+}
+
+.array-bar {
+  background: black;
+  width: 2px;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+@media screen and (max-width:475px) {
+ .array-container {
+  margin: 0 auto;
+  height: 510px;
+  padding: 0;
+}
+.array-bar {
+  background: black;
+  width: 1px;
+  display: inline-block;
+  margin: 0px;
+}
+  
+}
+@media screen and (max-width:650px) {
+  .array-bar{
+    width: 1px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+   .array-bar{
+    padding-right: 1px;
+  }
+}
